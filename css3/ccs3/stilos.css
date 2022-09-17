@@ -1,0 +1,41 @@
+#y{
+    width:1000px;
+    height: 800px;
+    background-color:#62374E ;
+    border:solid black 15px;
+
+}
+#d{
+    position:relative;
+    left:120px;
+    top:100px;
+    width:100px;
+    height: 100px;
+    background-color:#F3AC3C ;
+  
+}
+#F{
+    position:relative;
+    left: 3px;
+    top:390px;
+    width:100px;
+    height: 100px;
+    background-color:#F3AC3C ;
+    
+}
+#g{
+    position:absolute;
+    left:620px;
+    top:3px;
+    width:100px;
+    height: 100px;
+    background-color:#F3AC3C ;
+}
+#h{
+    position:absolute;
+    left:750px;
+    top:135px;
+    width:100px;
+    height: 100px;
+    background-color:#F3AC3C ;
+}

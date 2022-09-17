@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body bgcolor="gray">
+  <center>
+  <h1> respuesta a la solicitud</h1></center>
+  <p>instrucciones:</p>
+  <lu>
+  <li>registra cuidadosamente los datos que se te solicitan,estos seran utilizados para conformar tu expediente en la base de datos del sistema de control escolar</li>
+  <li>escribir con letras mayúsculas que sean legibles con tinta negra </li>
+</lu>
+</br>
+</br>
+  <table >
+  <tr>
+      
+     <td>aciertos</td>
+     <td><span id="c1"></span></td> 
+     
+   </tr>
+  </tr> 
+ <tr>
+   <td>folio comipems</td>
+   <td><span  id="c2"></td>
+   
+   </tr>
+   
+     <tr>
+     <td>correo</td>
+     <td><span id="c3"></td> 
+     
+   </tr>
+   
+        <tr>
+     <td>fecha</td>
+     <td><span id="c4"></td> 
+     </tr>
+     
+             <tr>
+     <td>nombre</td>
+     <td><span id="c5"></td> 
+     
+     
+        <tr>
+     <td>apellido paterno</td>
+     <td><span id="c6"></td> 
+     </tr>
+     
+     
+        <tr>
+     <td>apellido materno</td>
+     <td><span id="c7"></td> 
+     </tr>
+     
+       <tr>
+     <td>dia</td>
+     <td><span id="c8"></td> 
+     </tr>
+     
+     
+     
+     
+       <tr>
+     <td>mes</td>
+     <td><span  id="c9"></td> 
+     </tr>
+     
+     
+     
+     
+     
+       <tr>
+     <td>año</td>
+     <td><span id="c10"></td> 
+     </tr>
+     
+     
+       <tr>
+     <td>lugar de nacimiento</td>
+     <td><span  id="c11"></td> 
+     </tr>
+     
+     
+            <tr>
+     <td>curp</td>
+     <td><span  id="c12"></td> 
+     </tr>
+     
+     
+       <tr>
+     <td>sexo</td>
+     <td><span id="c13"
+     ></span>
+   
+     
+     </td> 
+     </tr>
+     
+                 <tr>
+     <td>alergia</td>
+     <td><span id="c14"></td> 
+     </tr>
+     
+       <tr>
+     <td>teléfono de aspirante</td>
+     <td><span id="c15"></td> 
+     </tr>
+     
+      <tr>
+     <td>correo del tutor</td>
+     <td><span id="c16"></td> 
+     <tr>
+  </table>
+  
+  
+  
+  
+  
+  <center><form>
+  
+  <h1> datos de inscripción </h1>
+<form action="" method="past">
+ <table border>
+  <tr>
+    <td>foto</td>
+    <td><input type="file" name="file" ></type></td>
+  </tr> 
+ <tr>
+   <td>folio comipems</td>
+   <td><input type="text" name="nombre" placeholder=" escribe folio" required
+   id="folio"></td>
+   
+   </tr>
+   <tr>
+     <td>aciertos</td>
+     <td><input type="number" name="aciertos" placeholder="aciertos" required= min="0" max="128" id="aciertos"></td> 
+     
+   </tr>
+     <tr>
+     <td>correo</td>
+     <td><input type="email" name="email" placeholder="alguien@example.com" required id="correo"></td> 
+     
+   </tr>
+   
+        <tr>
+     <td>fecha</td>
+     <td><input type="date" name="date"placeholder="fecha" required id="fecha"></td> 
+     </tr>
+     
+             <tr>
+     <td>nombre</td>
+     <td><input type="txt" name="nombre"placeholder="escribe nombre"required id="nombre"></td> 
+     
+     
+        <tr>
+     <td>apellido paterno</td>
+     <td><input type="txt" name="paterno"placeholder="martinez" required id="ap"></td> 
+     </tr>
+     
+     
+        <tr>
+     <td>apellido materno</td>
+     <td><input type="txt" name="apellido materno"placeholder="morales" required id="am"></td> 
+     </tr>
+     
+       <tr>
+     <td>dia</td>
+     <td><input type="number" name="number"placeholder="13" required id="dia"></td> 
+     </tr>
+     
+     
+     
+     
+       <tr>
+     <td>mes</td>
+     <td><input type="number" name="number"placeholder="02" required id="mes"></td> 
+     </tr>
+     
+     
+     
+     
+     
+       <tr>
+     <td>año</td>
+     <td><input type="number" name="number"placeholder="1235" required id="año"></td> 
+     </tr>
+     
+     
+       <tr>
+     <td>lugar de nacimiento</td>
+     <td><input type="txt" name="txt"placeholder="cd de México" required id="lgdn"></td> 
+     </tr>
+     
+     
+            <tr>
+     <td>curp</td>
+     <td><input type="text" name="text"placeholder="0192930a74" required id="curp"></td> 
+     </tr>
+     
+     
+       <tr>
+     <td>sexo</td>
+     <td><select name="" id="sexo" >
+       <option value="femenino">femenino</option>
+         <option value="masculino">masculino</option>
+         
+     </select>
+     
+     </td> 
+     </tr>
+     
+                 <tr>
+     <td>alergia</td>
+     <td><input type="text" name="txt"placeholder="alergia al ketorolaco" required id="alergia"></td> 
+     </tr>
+     
+       <tr>
+     <td>teléfono de aspirante</td>
+     <td><input type="tel" name="tel"placeholder="5583809" required id="tp"></td> 
+     </tr>
+     
+      <tr>
+     <td>correo del tutor</td>
+     <td><input type="email" name="email"placeholder="alguien@example.com" required id="ct"></td> 
+     <tr>
+<td colspan="2">
+      <center><button type="button" onclick="imprimir()">Guardar</button></center></td>
+      
+     </tr>
+         </form></center>
+         </table>
+         <a href="C:\Users\Karol SA\Desktop\proyecto2\index.html">menu</a>
+                <script src="app.js">app.js</script>    
+</body>
+
+</html>

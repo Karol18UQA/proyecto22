@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="audio.css">
+  <title></title>
+</head>
+
+<body bgcolor="salmon">
+<center>
+  <h1><marquee>sonidos</marquee></h1><hr>
+  <div onclick="playsound('clap')"class="key">clap</div>
+  <audio id="clap" src="sounds/clap.wav"></audio>
+<br>
+  <div onclick="playsound('boom')"class="key">boom</div>
+  <audio id="boom" src="sounds/boom.wav"></audio>
+  <br>
+<div onclick="playsound('hihat')"class="key">hihat</div>
+  <audio id="hihat" src="sounds/hihat.wav"></audio>
+<br>
+  <div onclick="playsound('kick')"class="key">kick</div>
+  <audio id="kick" src="sounds/kick.wav"></audio>
+
+<br>
+ <div onclick="playsound('openhat')"class="key">openhat</div>
+  <audio id="openhat" src="sounds/openhat.wav"></audio>
+<br>
+  <div onclick="playsound('ride')"class="key">ride</div>
+  <audio id="ride" src="sounds/ride.wav"></audio>
+  <br>
+<div onclick="playsound('snare')"class="key">snare</div>
+  <audio id="snare" src="sounds/snare.wav"></audio>
+<br>
+  <div onclick="playsound('tink')"class="key">tink</div>
+  <audio id="tink" src="sounds/tink.wav"></audio>
+
+<br>
+  <div onclick="playsound('tom')"class="key">tom</div>
+  <audio id="tom" src="sounds/tom.wav"></audio>
+<br>
+ 
+  <script>
+const playsound = (code) => {
+      var audio = document.querySelector("#" +code);
+      if (!audio) return;
+      audio.currendTime = 0
+      audio.play();
+    }
+  </script>
+  <a href="C:\Users\Karol SA\Desktop\proyecto2\index.html">menu</a>
+</center>
+</body>
+
+</html>
